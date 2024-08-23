@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List</title>
+    <style type="text/css">
+      *{margin: 0; padding: 0;}
+      .container{
+        display: flex;
+        gap: 10px;
+        padding: 10px 50px;
+        overflow: hidden;
+        background-color: rgba(165, 247, 219, 0.596);
+      }
+      .list-container{
+        min-width: 150px;
+        min-height: 250px;
+        background-color: rgb(185, 223, 219);
+        margin: 0px 0px;
+      }
+      h3{
+        padding: 10px 20px;
+        background-color: rgba(187, 183, 247, 0.63);
+      }
+      h4{
+        background-color: rgba(121, 201, 238, 0.596);
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+      ol,ul,dl{
+        min-width: 100%;
+        width: 250px;
+      }
+      ol,ul{
+        margin-left:25px ;
+      }
+      dl{
+        margin-left: 15px;
+      }
+      dl>dd{
+        margin-left: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>This page introduces html list items with link tag.</h3>
+    <div class="container">
+    <div class="list-container">
+      <h4>Order list</h4>
+      <ol>
+        <li><a href="#">pizza</a></li>
+        <li><a href="#">burger</a></li>
+        <li><a href="#">pasta</a></li>
+        <li><a href="#">nuddles</a></li>
+        <li><a href="#">checken fry</a></li>
+      </ol>
+
+    </div>
+
+    <div class="list-container">
+      <h4>Unorder list</h4>
+      <ul>
+        <li><a href="#pizza">pizza</a></li>
+        <li><a href="#burger">burger</a></li>
+        <li><a href="#pasta">pasta</a></li>
+        <li><a href="#nuddles">nuddles</a></li>
+        <li><a href="#checken fry">checken fry</a></li>
+      </ul>
+    </div>
+
+    <div class="list-container">
+        <h4>Description list</h4>
+        <dl>
+          <dt>Coffee</dt>
+          <dd><a href="#">- black hot drink</a></dd>
+          <dd><a href="#">- black cold drink</a></dd>
+
+          <dt>Milk</dt>
+          <dd><a href="#">- white hot drink</a></dd>
+          <dd><a href="#">- white cold drink</a></dd>
+        </dl>
+    </div>
+  </div>
+  </body>
+</html>
